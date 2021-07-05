@@ -1,2 +1,2 @@
 # docker-openresty
-Compiling OpenResty modulex for use in docker image
+Compiling OpenResty module for use in docker image
