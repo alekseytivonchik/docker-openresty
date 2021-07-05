@@ -34,5 +34,5 @@ COPY nginx/nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
 
 EXPOSE 80
 EXPOSE 443
-STOPSIGNAL SIGTERM
-CMD ["nginx", "-g", "daemon off;"]
+# STOPSIGNAL SIGTERM
+# CMD ["nginx", "-g", "daemon off;"]
